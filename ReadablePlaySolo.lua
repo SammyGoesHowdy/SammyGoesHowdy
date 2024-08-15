@@ -51,8 +51,6 @@ msg.Text = "Waiting for character"
 -- Run the game --
 game:service("RunService"):run();
 
-
--- 2007 ONLY!!!!!!!!
 plr:SetSuperSafeChat(false);
 plr:LoadCharacter(id);
 msg.Parent = nil
